@@ -1,4 +1,3 @@
-import pytest
 from pytest import fixture
 
 from reverse_string import reverse_string
@@ -9,3 +8,4 @@ def string():
 
 def test_reverse_string(string):
     assert reverse_string(string) == "olleH"
+
